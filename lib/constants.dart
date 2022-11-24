@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-const scafColorLight = Color.fromRGBO(252, 252, 252, 1);
+const scafColorLight = Color.fromRGBO(245, 245, 245, 1);
 const scafColorDark = Color.fromRGBO(23, 23, 23, 1);
 const darkGrey = Color.fromRGBO(55, 55, 55, 1);
 const darkGreyText = Color.fromARGB(255, 130, 130, 130);
@@ -20,10 +20,10 @@ const greyText = TextStyle(
   fontWeight: FontWeight.bold,
 );
 const rooms = {
-  'My home': FontAwesomeIcons.doorClosed,
-  'Bedroom': FontAwesomeIcons.bed,
-  'Bathroom': FontAwesomeIcons.bath,
-  "Living room": FontAwesomeIcons.couch,
+  'Xonadon': FontAwesomeIcons.doorClosed,
+  'Yotoqxona': FontAwesomeIcons.bed,
+  'Xammom': FontAwesomeIcons.bath,
+  "Oshxona": FontAwesomeIcons.couch,
 };
 
 class Device {
@@ -43,8 +43,8 @@ final devices = [
   Device(
     icon: FontAwesomeIcons.thermometer,
     isOn: true,
-    title: 'Climate',
-    value: 'Air +21',
+    title: 'Temperatura',
+    value: 'Havo +21',
   ),
   Device(
     icon: FontAwesomeIcons.wifi,
@@ -55,13 +55,13 @@ final devices = [
   Device(
     icon: FontAwesomeIcons.lightbulb,
     isOn: false,
-    title: 'Lightning',
+    title: 'Chiroqlar',
     value: '3 devices',
   ),
   Device(
     icon: FontAwesomeIcons.tv,
     isOn: true,
-    title: 'Television',
-    value: 'channel 6',
+    title: 'Televizor',
+    value: '6-kanal',
   ),
 ];

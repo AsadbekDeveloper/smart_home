@@ -29,11 +29,11 @@ class HomePage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: const [
                 Text(
-                  'Welcome home',
+                  'Xush kelibsiz',
                   style: headerLarge,
                 ),
                 Text(
-                  'Sun, 04 Jun, 2022',
+                  'Yak, 04 Iyul, 2022',
                   style: greyText,
                 ),
               ],
@@ -60,13 +60,13 @@ class HomePage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'Devices',
+                    'Uskunalar',
                     style: headerLarge,
                   ),
                   Row(
                     children: const [
                       Text(
-                        'Add',
+                        'Qo\'shish',
                         style: greyText,
                       ),
                       SizedBox(

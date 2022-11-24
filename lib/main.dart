@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:smart_home/constants.dart';
 
 import 'screens/home_page.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
             color: scafColorDark,
           ),
         ),
+        fontFamily: GoogleFonts.poppins().fontFamily,
       ),
       home: HomePage(),
     );

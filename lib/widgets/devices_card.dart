@@ -28,11 +28,20 @@ class DevicesCard extends StatelessWidget {
                 isDark: device.isOn,
                 icon: device.icon,
               ),
-              CupertinoSwitch(
-                value: device.isOn,
-                onChanged: (_) {},
-                activeColor: mainAccent,
-              ),
+              device.isOn
+                  ? CupertinoSwitch(
+                      value: device.isOn,
+                      onChanged: (_) {},
+                      trackColor: scafColorLight,
+                      thumbColor: scafColorDark,
+                      activeColor: scafColorLight,
+                    )
+                  : CupertinoSwitch(
+                      value: device.isOn,
+                      onChanged: (_) {},
+                      trackColor: scafColorDark,
+                      thumbColor: scafColorLight,
+                    ),
             ],
           ),
           Column(
