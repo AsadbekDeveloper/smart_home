@@ -1,4 +1,4 @@
-# Store app UI
+# Smart home App
 Ispired by Dribbble design
 
 ### Previews
